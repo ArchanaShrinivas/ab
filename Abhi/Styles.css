@@ -110,8 +110,10 @@ a:hover {
 @media screen and (max-width: 768px) {
     /* Adjust header image size for smaller screens */
     header img {
-        width: 80px;
-        height: 80px;
+        width: 120px;
+        height: 120px;
+        margin: 10px auto; /* Center the image horizontally and add some space */
+        display: block; /* Ensure it's a block element */
     }
 }
 
