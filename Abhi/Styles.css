@@ -108,14 +108,24 @@ a:hover {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-    /* Adjust header image size for smaller screens */
+    /* Adjust header image size and position for smaller screens */
     header img {
-        width: 120px;
-        height: 120px;
-        margin: 10px auto; /* Center the image horizontally and add some space */
-        display: block; /* Ensure it's a block element */
+        width: 120px; /* Increase size */
+        height: 120px; /* Increase size */
+        margin-bottom: 20px; /* Add more space between image and header info */
+        position: absolute;
+        top: -70px; /* Position above header info */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Adjust header-info layout for smaller screens */
+    .header-info {
+        position: relative;
+        padding-top: 80px; /* Add space for the header image */
     }
 }
+
 
 @media screen and (max-width: 480px) {
     /* Adjust container padding for smaller screens */
