@@ -109,6 +109,11 @@ a:hover {
 /* Media Queries */
 @media screen and (max-width: 768px) {
     /* Adjust header image size and position for smaller screens */
+    .header-content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     header img {
         width: 120px; /* Increase size */
         height: 120px; /* Increase size */
