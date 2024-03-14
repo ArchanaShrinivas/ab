@@ -135,6 +135,9 @@ a:hover {
         padding-top: 80px; /* Add space for the header image */
     }
  */
+.container {
+        padding: 5px;
+    }
 }
 
 
