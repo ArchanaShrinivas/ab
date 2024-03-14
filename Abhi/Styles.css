@@ -136,12 +136,7 @@ a:hover {
     }
  */
 .container {
-/*     margin: 20px auto; */
-    margin: 0px;
-    padding: 0px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.368);
+    padding: 0px 0px;
 }
 }
 
